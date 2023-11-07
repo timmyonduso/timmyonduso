@@ -4,7 +4,6 @@ I am a result-oriented Oracle Certified Professional with over five years of exp
 
 - 🔭 I’m currently working on a loan management system for a SACCO.
 - 🌱 I’m currently learning cloud based technologies.
-- 💬 Ask me about ...
 - 📫 Reach me at: timmyonduso58@gmail.com
 - 🤝  I'm open to collaborating on In kotlin,Java, Android ,Ios
 
