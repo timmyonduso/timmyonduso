@@ -7,3 +7,5 @@ I am a result-oriented Oracle Certified Professional with over five years of exp
 - 📫 Reach me at: timmyonduso58@gmail.com
 - 🤝  I'm open to collaborating on In kotlin,Java, Android ,Ios
 
+<img alt=”React” src=”https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+
