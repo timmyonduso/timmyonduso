@@ -12,7 +12,7 @@ I am a result-oriented Oracle Certified Professional with over five years of exp
 <b>My GitHub Stats</b>
 
 <a href="https://github.com/timmyonduso/timmzzyy">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=timmyonduso&show_icons=true&theme=radical&rank_icon=github" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=timmyonduso&show_icons=true&theme=radical&rank_icon=github&hide_border=true" />
 </a>
 
 <br />
