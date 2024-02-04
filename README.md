@@ -6,3 +6,5 @@ I am a result-oriented Oracle Certified Professional with over five years of exp
 - 🌱 I’m currently learning cloud based technologies.
 - 📫 Reach me at: timmyonduso58@gmail.com
 - 🤝  I'm open to collaborating on React, tailwind, react native
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=timmyonduso)](https://github.com/timmyonduso/timmzzyy)
