@@ -24,7 +24,7 @@ I am a result-oriented Oracle Certified Professional with over five years of exp
 <br />
 
 <a href="https://github.com/timmyonduso/timmzzyy">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=timmyonduso&langs_count=8&hide_progress=true" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=timmyonduso&langs_count=8&hide_progress=true&hide_border=true" />
 </a>
 
 
