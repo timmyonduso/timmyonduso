@@ -9,7 +9,7 @@ Welcome to my GitHub profile! I'm a passionate software engineer from Kenya with
 - 📫 Reach me at: timmyonduso58@gmail.com
 - 🤝  I'm open to collaborating on React, Laravel, React Native, kotlin
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
@@ -33,6 +33,6 @@ Welcome to my GitHub profile! I'm a passionate software engineer from Kenya with
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 ![Timmy's GitHub stats](https://github-readme-stats.vercel.app/api?username=timmyonduso&show_icons=true&theme=radical&rank_icon=github&hide_border=true)
