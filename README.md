@@ -67,4 +67,4 @@ Welcome to my GitHub profile! I'm a passionate software engineer from Kenya with
 
 ## GitHub Stats
 
-![Timmy's GitHub stats](https://github-readme-stats.vercel.app/api?username=timmyonduso&show_icons=true&theme=radical&rank_icon=github&hide_border=true)
+![Timmy's GitHub stats](./profile/stats.svg)

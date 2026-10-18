@@ -1,0 +1,54 @@
+name: Update stats card
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats-card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: anuraghazra/github-readme-stats
+          path: .gh-stats
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install renderer
+        run: npm ci --omit=dev --ignore-scripts
+        working-directory: .gh-stats
+
+      - name: Render card
+        env:
+          PAT_1: ${{ secrets.STATS_TOKEN }}
+        run: |
+          cat > .gh-stats/render.mjs <<'JS'
+          import { fetchStats } from "./src/fetchers/stats.js";
+          import { renderStatsCard } from "./src/cards/stats.js";
+          import { writeFileSync } from "node:fs";
+          const stats = await fetchStats("timmyonduso", true, [], true, true);
+          writeFileSync("../profile/stats.svg", renderStatsCard(stats, {
+            show_icons: true,
+            theme: "radical",
+            rank_icon: "github",
+            hide_border: true,
+          }));
+          JS
+          mkdir -p profile
+          (cd .gh-stats && node render.mjs)
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg
+          git diff --cached --quiet || (git commit -m "Update stats card" && git push)
